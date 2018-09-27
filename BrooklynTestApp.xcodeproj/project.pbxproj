@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06262C1C215A8C2B00BE3A6E /* UIHeadGazeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06262C1B215A8C2B00BE3A6E /* UIHeadGazeView.swift */; };
 		0694E44B2159573C0075CCAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E44A2159573C0075CCAC /* AppDelegate.swift */; };
 		0694E44D2159573C0075CCAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E44C2159573C0075CCAC /* ViewController.swift */; };
 		0694E4502159573C0075CCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0694E44E2159573C0075CCAC /* Main.storyboard */; };
 		0694E4522159573D0075CCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0694E4512159573D0075CCAC /* Assets.xcassets */; };
 		0694E4552159573D0075CCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0694E4532159573D0075CCAC /* LaunchScreen.storyboard */; };
+		0694E45F21595DC50075CCAC /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E45E21595DC50075CCAC /* Throttler.swift */; };
+		0694E4612159769E0075CCAC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E4602159769E0075CCAC /* File.swift */; };
+		0694E46321597A6D0075CCAC /* ChargingThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E46221597A6D0075CCAC /* ChargingThrottler.swift */; };
+		0694E46521597EEE0075CCAC /* UIHeadGazeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E46421597EEE0075CCAC /* UIHeadGazeEvent.swift */; };
+		0694E4672159A86A0075CCAC /* UIHeadGazeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694E4662159A86A0075CCAC /* UIHeadGazeRecognizer.swift */; };
+		06AE92DF215C1BB20099655B /* UIHeadGazeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE92DE215C1BB20099655B /* UIHeadGazeViewController.swift */; };
+		06AE92E1215C1C5E0099655B /* UIHeadGazeViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE92E0215C1C5E0099655B /* UIHeadGazeViewControllerBase.swift */; };
+		06AE92E3215C1F3F0099655B /* UIVirtualCursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE92E2215C1F3F0099655B /* UIVirtualCursorView.swift */; };
+		06AE92E5215C92870099655B /* UIHoverableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE92E4215C92870099655B /* UIHoverableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06262C1B215A8C2B00BE3A6E /* UIHeadGazeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeadGazeView.swift; sourceTree = "<group>"; };
 		0694E4472159573C0075CCAC /* BrooklynTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrooklynTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0694E44A2159573C0075CCAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0694E44C2159573C0075CCAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,15 @@
 		0694E4512159573D0075CCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0694E4542159573D0075CCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0694E4562159573D0075CCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0694E45E21595DC50075CCAC /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
+		0694E4602159769E0075CCAC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0694E46221597A6D0075CCAC /* ChargingThrottler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingThrottler.swift; sourceTree = "<group>"; };
+		0694E46421597EEE0075CCAC /* UIHeadGazeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeadGazeEvent.swift; sourceTree = "<group>"; };
+		0694E4662159A86A0075CCAC /* UIHeadGazeRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeadGazeRecognizer.swift; sourceTree = "<group>"; };
+		06AE92DE215C1BB20099655B /* UIHeadGazeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeadGazeViewController.swift; sourceTree = "<group>"; };
+		06AE92E0215C1C5E0099655B /* UIHeadGazeViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeadGazeViewControllerBase.swift; sourceTree = "<group>"; };
+		06AE92E2215C1F3F0099655B /* UIVirtualCursorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVirtualCursorView.swift; sourceTree = "<group>"; };
+		06AE92E4215C92870099655B /* UIHoverableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHoverableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 		0694E4492159573C0075CCAC /* BrooklynTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				0694E45C21595D590075CCAC /* HeadGazeLib */,
 				0694E44A2159573C0075CCAC /* AppDelegate.swift */,
 				0694E44C2159573C0075CCAC /* ViewController.swift */,
 				0694E44E2159573C0075CCAC /* Main.storyboard */,
@@ -62,6 +83,31 @@
 				0694E4562159573D0075CCAC /* Info.plist */,
 			);
 			path = BrooklynTestApp;
+			sourceTree = "<group>";
+		};
+		0694E45C21595D590075CCAC /* HeadGazeLib */ = {
+			isa = PBXGroup;
+			children = (
+				0694E45D21595D840075CCAC /* Utilities */,
+				0694E46421597EEE0075CCAC /* UIHeadGazeEvent.swift */,
+				0694E4662159A86A0075CCAC /* UIHeadGazeRecognizer.swift */,
+				06262C1B215A8C2B00BE3A6E /* UIHeadGazeView.swift */,
+				06AE92DE215C1BB20099655B /* UIHeadGazeViewController.swift */,
+				06AE92E0215C1C5E0099655B /* UIHeadGazeViewControllerBase.swift */,
+				06AE92E2215C1F3F0099655B /* UIVirtualCursorView.swift */,
+				06AE92E4215C92870099655B /* UIHoverableButton.swift */,
+			);
+			path = HeadGazeLib;
+			sourceTree = "<group>";
+		};
+		0694E45D21595D840075CCAC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0694E45E21595DC50075CCAC /* Throttler.swift */,
+				0694E4602159769E0075CCAC /* File.swift */,
+				0694E46221597A6D0075CCAC /* ChargingThrottler.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AE92DF215C1BB20099655B /* UIHeadGazeViewController.swift in Sources */,
+				0694E46321597A6D0075CCAC /* ChargingThrottler.swift in Sources */,
+				06AE92E3215C1F3F0099655B /* UIVirtualCursorView.swift in Sources */,
+				06262C1C215A8C2B00BE3A6E /* UIHeadGazeView.swift in Sources */,
+				0694E4672159A86A0075CCAC /* UIHeadGazeRecognizer.swift in Sources */,
 				0694E44D2159573C0075CCAC /* ViewController.swift in Sources */,
+				0694E4612159769E0075CCAC /* File.swift in Sources */,
+				06AE92E1215C1C5E0099655B /* UIHeadGazeViewControllerBase.swift in Sources */,
+				06AE92E5215C92870099655B /* UIHoverableButton.swift in Sources */,
+				0694E46521597EEE0075CCAC /* UIHeadGazeEvent.swift in Sources */,
 				0694E44B2159573C0075CCAC /* AppDelegate.swift in Sources */,
+				0694E45F21595DC50075CCAC /* Throttler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
