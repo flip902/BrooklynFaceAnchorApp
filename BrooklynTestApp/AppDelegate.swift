@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ARKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let wnd = UIWindow(frame: UIScreen.main.bounds)
+        let rootViewController = ViewController()
+        if ARFaceTrackingConfiguration.isSupported {
+            wnd.rootViewController = rootViewController
+            wnd.makeKeyAndVisible()
+            window = wnd
+        } else {
+            wnd.rootViewController = UIViewController()
+            wnd.makeKeyAndVisible()
+            window = wnd
+        }
         return true
     }
 

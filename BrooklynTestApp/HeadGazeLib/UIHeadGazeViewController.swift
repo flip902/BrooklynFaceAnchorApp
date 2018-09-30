@@ -9,16 +9,12 @@
 import Foundation
 import ARKit
 
-class UIGeadGazeViewController: UIHeadGazeViewControllerBase, ARSessionDelegate {
+class UIHeadGazeViewController: UIHeadGazeViewControllerBase, ARSessionDelegate {
     
     private var sceneview: ARSCNView?
     
     // An instance of UIVirtualCursorView that is responsible for visualizing the gaze location on the screen with a cursor/crosshair
     public var virtualCursorView: UIVirtualCursorView?
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
